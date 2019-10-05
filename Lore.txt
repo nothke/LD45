@@ -1,0 +1,98 @@
+"[RACE] should be in [NATIVE_ENVIRONMENT], where they belong! #GoBack"
+"[World_Crisis] is not real, just attention grabbers believe it. #FakeNews”
+“[World_Crisis] is fake news.#fakenews”
+“Muskets are everything wrong with this world. #GoBack”
+“[Faction] is betraying [Faction]! #NoToCats / #NoToDogs”
+“[Faction] is betraying their own ideals. #NotMyFaction”
+“Dogs should just lay down and starve. #NoToDogs”
+“I am ashamed of my race for betraying [Faction]. #NotMyFaction”
+“Cats should drown. #PussyDestroyer”
+“You are a pussy. #GetOwnd
+ Reply(Cat): Yes… I am.”
+“You are chicken. #MeowDown (Cat Insult)”
+“You are a bitch. #WoofDown
+Reply(Dog): Yes… I am.”
+“You are a pussy. #DogShlong(Dog Insult)”
+“You are a bitch.  #CatNoPat (Cat Insult)”
+“M.E.N. controles us I am telling you!#TAW”
+“M.E.N. are watching everything. #TAW”
+“Black Cats are all the bad luck in the world. #NoToBlacks”
+“Dogs should just lick themselves and do nothing. Cats should rule! #CatsRule”
+“Minimum Food Income should increase #MinimumFood”
+“Everyone needs a cuddle #UniversalBasicCuddle”
+“Dogs should rule. We are the dominant species #DogsRule”
+“Pugs shouldn’t exist!”
+“I got catfished on my date! It was a catfish  instead of a [Race]! So mad. #Catfish”
+“Catfishes are cats too! #CatEquality”
+“Meerkats are cats too! #catequality”
+“Cats talk way to slow. I passed out from heat while talking to one. #TigerCats”
+“Cats cant stop interupting with their stupid mewoing. They just blab a lot. #TigerCats”
+“Dogs are stupid when they bark. Primal instincts kicks in for those savages. #SavageWolf”
+“Dogs should stop chasing their tails. They look so stupid. #SavageWolf”
+“Cats should stop chasing lasers. There is nothing there you stupid furbags #TigerCats”
+“We should put all cats in a giant bad and d-word them them #TigerCats”
+“Grumpy Cat for president. #MyPresidentCat”
+“Doge for president. #MyPresidentDog”
+“Life would be better without [Race]. #GoBack”
+“We should save [Native_Inviroment]! They are important too. #SaveThePlanet”
+“I am drowning in pussy tonight. #InAGoodWay”
+“All Hail M.E.N.#TAW”
+“M.E.N. should be feared off.#TAW”
+“He is eating pure sugar!! Yuck!!! #NoToPureSugar”
+“M.E.N. are going to take over!#TAW”
+“I like to smell butts. #NoDoggo”
+“You are all cute <3. #Equality
+Reply Dog : Drown you moron. #TigerCats
+Reply Cat : Go chase your tail. #SavageWolf”
+“I like big nips and I can not lie. #NoPussy”
+“Starting with #ldjam. Wish me luck <3.”
+“I FORGOT TO SAVE. #ldjam”
+“Progressing at a steady peace. #ldjam”
+“MewMazing. #GoodDay#
+“New Song Coming Out Soon. #DJCaz”
+“New Album In Making. #DjDogz”
+“Love for everyone <3. #Equality”
+“Aristocats was a good movie. #CantChangeMyMind”
+
+$RACE
+Black Cats
+Persian Cats
+American Shorthair
+Sphynx cat
+German Shepard
+Labradors
+Retrivers
+Bulldogs
+Shibes
+Meerkat
+Catfish
+
+$NATIVE_ENVIRONMENT
+Sheds
+The Streets
+Egypt
+
+$Factions
+Dogederacy
+M.E.N. 
+Republicats
+Democats
+Freedocats
+Indiepets
+
+
+$World_Crisis
+Lack of Milk
+Lack of Litter
+Lack of Cat Nip
+Rat Epidemic
+Pat Epidemic
+Lack of Meat
+Minimum Food Income
+
+
+
+$Religion
+Muskets
+Pawgans
+Dogmatists
