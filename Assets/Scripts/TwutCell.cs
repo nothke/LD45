@@ -7,6 +7,8 @@ using TMPro;
 
 public class TwutCell : MonoBehaviour
 {
-    public TMP_Text name;
+    public RawImage avatar;
+    public TMP_Text nick;
     public TMP_Text text;
+    public RectTransform rectT;
 }
