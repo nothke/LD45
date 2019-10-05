@@ -9,11 +9,11 @@
 “Cats should drown. #PussyDestroyer”
 “You are a pussy. #GetOwnd
  Reply(Cat): Yes… I am.”
-“You are chicken. #MeowDown (Cat Insult)”
-“You are a bitch. #WoofDown
+“You are chicken. #TigerCats (Cat Insult)”
+“You are a bitch. #SavageWolfs
 Reply(Dog): Yes… I am.”
-“You are a pussy. #DogShlong(Dog Insult)”
-“You are a bitch.  #CatNoPat (Cat Insult)”
+“You are a pussy. #SavageWolfs(Dog Insult)”
+“You are a bitch.  #TigerCats (Cat Insult)”
 “M.E.N. controles us I am telling you!#TAW”
 “M.E.N. are watching everything. #TAW”
 “Black Cats are all the bad luck in the world. #NoToBlacks”
@@ -24,7 +24,7 @@ Reply(Dog): Yes… I am.”
 “Pugs shouldn’t exist!”
 “I got catfished on my date! It was a catfish  instead of a [Race]! So mad. #Catfish”
 “Catfishes are cats too! #CatEquality”
-“Meerkats are cats too! #catequality”
+“Meerkats are cats too! #CatEquality”
 “Cats talk way to slow. I passed out from heat while talking to one. #TigerCats”
 “Cats cant stop interupting with their stupid mewoing. They just blab a lot. #TigerCats”
 “Dogs are stupid when they bark. Primal instincts kicks in for those savages. #SavageWolf”
@@ -48,11 +48,45 @@ Reply Cat : Go chase your tail. #SavageWolf”
 “Starting with #ldjam. Wish me luck <3.”
 “I FORGOT TO SAVE. #ldjam”
 “Progressing at a steady peace. #ldjam”
+“I kant git lulz. #ldjam”
 “MewMazing. #GoodDay#
 “New Song Coming Out Soon. #DJCaz”
 “New Album In Making. #DjDogz”
 “Love for everyone <3. #Equality”
 “Aristocats was a good movie. #CantChangeMyMind”
+“AirPup was a great movie. #CantChangeMyMind”
+“Went to History Museum. I still dont believe we were made from tigers. #YouLearnEveryday”
+“”
+
+Replys to :
+
+#GoBack
+#NotMyFaction
+#TigerCats
+#SavageWolfs
+#PussyDestroyer
+#NoToDogs
+#FakeNews
+
+
+“Dont be rude!”				“#spreadhate #TAW”
+“We are all the same!”			“Reported!”
+“You should not exist.”			“#WorldWithoutRace”
+“Fuck off”					“Drown you pussy [Faction]”
+
+Replys to:
+
+#ldjam
+
+“Good luck <3” 				“Hope you finish it in time <3”
+“Better luck for you than me. I am sick.”		“If you need help just call”
+
+Replys to:
+
+#TAW
+“THEY ARE REAL! I AM TELLING YOU.”  	“Truth is right infront of you. They will find you”
+“Good luck. You will be gone”	 	“Watch out. They are watching you too”
+
 
 $RACE
 Black Cats
