@@ -57,8 +57,20 @@ Reply Cat : Go chase your tail. #SavageWolf”
 “AirPup was a great movie. #CantChangeMyMind”
 “Went to History Museum. I still dont believe we were made from tigers. #YouLearnEveryday”
 “”
+Replays to:
+
+All #
 
 Replys to :
+
+Everything
+
+“Thank you for information. It was usless.”		“Please, shut up for good.”
+“I fully support you.”				“Finally someone with common sense!”
+“LIBERTY TO [Faction].”			“End [Religion].”
+“Stick your belifes to yourself.”			“Stick it up your nip you wolf. #SavageWolfs”
+“Stupid tiger #TigerCats”			“You will be followed #TAW”
+					
 
 #GoBack
 #NotMyFaction
@@ -72,7 +84,7 @@ Replys to :
 “Dont be rude!”				“#spreadhate #TAW”
 “We are all the same!”			“Reported!”
 “You should not exist.”			“#WorldWithoutRace”
-“Fuck off”					“Drown you pussy [Faction]”
+“Hump off”				“Drown you pussy [Faction]”
 
 Replys to:
 
@@ -80,10 +92,12 @@ Replys to:
 
 “Good luck <3” 				“Hope you finish it in time <3”
 “Better luck for you than me. I am sick.”		“If you need help just call”
+“I am making a Diablo Rip-off lol”  		
 
 Replys to:
 
 #TAW
+
 “THEY ARE REAL! I AM TELLING YOU.”  	“Truth is right infront of you. They will find you”
 “Good luck. You will be gone”	 	“Watch out. They are watching you too”
 
