@@ -70,6 +70,8 @@ Everything
 “LIBERTY TO [Faction].”			“End [Religion].”
 “Stick your belifes to yourself.”			“Stick it up your nip you wolf. #SavageWolfs”
 “Stupid tiger #TigerCats”			“You will be followed #TAW”
+“You dont know the true ways.”			“You are so close minded. Open your eyes.”
+“Hate doesnt take us anywhere.”
 					
 
 #GoBack
