@@ -840,7 +840,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.29803923, g: 0.6140199, b: 0.78431374, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.53333336, g: 0.60784316, b: 0.79215693, a: 1}
+  m_Color: {r: 0.53333336, g: 0.69811165, b: 0.7921569, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1660,7 +1660,7 @@ MonoBehaviour:
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 0
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -1673,7 +1673,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 806045794}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.53453183, g: 0.6091114, b: 0.7924528, a: 1}
+  m_Color: {r: 0.53333336, g: 0.69803923, b: 0.79215693, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1756,6 +1756,10 @@ MonoBehaviour:
   feedTransform: {fileID: 1528398619}
   twutCellPrefab: {fileID: 1585758534930712333, guid: 19158c9b2dddd52419c369b222cee868,
     type: 3}
+  meSprite: {fileID: 21300000, guid: 85dc181fb75eb2544a8dddcbc5767e7f, type: 3}
+  avatars:
+  - {fileID: 21300000, guid: 85dc181fb75eb2544a8dddcbc5767e7f, type: 3}
+  - {fileID: 21300000, guid: c2f5b4ed2c075d644bfef0543d44fdb4, type: 3}
 --- !u!4 &856313726
 Transform:
   m_ObjectHideFlags: 0
@@ -1891,7 +1895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4481132, g: 0.6088048, b: 1, a: 0.69803923}
+  m_Color: {r: 0.4470588, g: 0.78987277, b: 1, a: 0.69803923}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

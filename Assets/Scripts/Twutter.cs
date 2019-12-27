@@ -8,21 +8,53 @@ public class Twutter : MonoBehaviour
     public static Twutter e;
     void Awake() { e = this; }
 
+    List<Profile> profiles = new List<Profile>();
     List<Twut> twuts = new List<Twut>();
 
     public RectTransform feedTransform;
     public GameObject twutCellPrefab;
 
+    public Sprite meSprite;
+    public Sprite[] avatars;
+
+    Profile me;
+
     void Start()
     {
+        me = new Profile()
+        {
+            avatarSprite = meSprite,
+            name = "Me"
+        };
 
+        // Create random animals
+        for (int i = 0; i < 10; i++)
+        {
+            Profile p = new Profile()
+            {
+                avatarSprite = avatars[Random.Range(0, avatars.Length)],
+                name = names[i]
+            };
+            profiles.Add(p);
+        }
+
+        StartCoroutine(RandomTweets());
     }
 
-    Twut CreateTwut(string author, string text)
+    IEnumerator RandomTweets()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(1.0f, 5.0f));
+            CreateRandomTwut();
+        }
+    }
+
+    Twut CreateTwut(Profile from, string text)
     {
         Twut twut = new Twut()
         {
-            author = author,
+            author = from,
             message = text
         };
 
@@ -34,8 +66,11 @@ public class Twutter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Profile randomProfile = profiles[Random.Range(0, profiles.Count)];
+            Debug.Log("Pus");
+
             string twutText = "haha! #shit #pussy";
-            var tw = CreateTwut("Catie", twutText);
+            var tw = CreateTwut(randomProfile, twutText);
             var tags = tw.GetTags();
 
             foreach (var tag in tags)
@@ -47,9 +82,24 @@ public class Twutter : MonoBehaviour
         }
     }
 
+    void CreateRandomTwut()
+    {
+        Profile randomProfile = profiles[Random.Range(0, profiles.Count)];
+        string twutText = tweetTexts[Random.Range(0, tweetTexts.Length)];
+        var tw = CreateTwut(randomProfile, twutText);
+        var tags = tw.GetTags();
+
+        foreach (var tag in tags)
+        {
+            Debug.Log(tag);
+        }
+
+        SpawnTwut(tw);
+    }
+
     public void TwutFromMe(string twutText)
     {
-        var tw = CreateTwut("Me", twutText);
+        var tw = CreateTwut(me, twutText);
         var tags = tw.GetTags();
 
         foreach (var tag in tags)
@@ -67,11 +117,41 @@ public class Twutter : MonoBehaviour
         cell.rectT.SetParent(feedTransform);
         cell.rectT.SetAsFirstSibling();
         // TODO: Set picture
-        cell.nick.text = twut.author;
+        cell.avatar.texture = twut.author.avatarSprite.texture;
+        cell.nick.text = twut.author.name;
         cell.text.text = twut.message;
     }
 
     const string FILENAME = "Lore.txt";
+
+    string[] tweetTexts = new string[]
+    {
+        "New Song Coming Out Soon. #DJCaz",
+        "I like big nips and I can not lie.",
+        "Progressing at a steady peace. #ldjam",
+        "Went to History Museum. I still dont believe we were made from tigers. #YouLearnEveryday",
+        "Aristocats was a good movie. #CantChangeMyMind",
+        "Starting with #ldjam. Wish me luck <3.",
+        "MewMazing. #GoodDay",
+        "Love for everyone <3. #Equality",
+        "Cats cant stop interupting with their stupid mewoing. They just blab a lot. #TigerCats",
+        "Meerkats are cats too! #CatEquality",
+        //"Dogs should rule. We are the dominant species #DogsRule"
+    };
+
+    string[] names = new string[]
+    {
+        "Dogge54",
+        "ApocatlipseNow3",
+        "Goodboi98",
+        "Bud9000",
+        "Kewl",
+        "max343",
+        "fetch_dis34",
+        "iPOOP",
+        "dooogooo",
+        "K9isOK"
+    };
 
     List<string> tweets = new List<string>();
     List<string> replies = new List<string>();
@@ -89,7 +169,7 @@ public class Twutter : MonoBehaviour
 
 public class Twut
 {
-    public string author;
+    public Profile author;
     public string message;
 
     public List<string> GetTags()
@@ -108,4 +188,10 @@ public class Twut
 
         return tags;
     }
+}
+
+public class Profile
+{
+    public string name;
+    public Sprite avatarSprite;
 }
